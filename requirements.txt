@@ -1,0 +1,8 @@
+flask>=2.0.0
+flask-socketio>=5.0.0
+python-socketio>=5.0.0
+python-uinput>=0.0.0; sys_platform == 'linux' or platform_system == 'Linux'
+pyautogui>=0.9.54; sys_platform == 'win32' or platform_system == 'Windows'
+
+pytest>=7.0.0
+pytest-mock>=3.0.0

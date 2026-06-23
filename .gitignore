@@ -1,0 +1,5 @@
+node_modules
+.trae
+__pycache__
+venv
+.pytest_cache

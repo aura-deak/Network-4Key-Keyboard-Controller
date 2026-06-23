@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Keyboard Controller</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <button class="key-btn" data-key="d">D</button>
+        <button class="key-btn" data-key="f">F</button>
+        <button class="key-btn" data-key="j">J</button>
+        <button class="key-btn" data-key="k">K</button>
+    </div>
+    <div id="status">Disconnected</div>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
